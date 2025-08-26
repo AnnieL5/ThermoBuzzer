@@ -1,4 +1,4 @@
-## ThermoBuzzer, a thermosense to prevent overheated stoves
+## ThermoBuzzer, a Thermosense to Prevent Overheated Stoves
 
 Place it near the stoves. 
 
