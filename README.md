@@ -6,8 +6,6 @@ This device integrates a thermosensor, buzzer, and a button, and can make alarms
 
 One Saturday afternoon my father left the stove, with the water heating up, for almost half an hour until the pot boiled dry and the fire alarm turned on, simply because he forgot the fact that the stove is still on. That moment inspired me to make a change - to build a device that could sense the temperature and alarm people that the burner is still active. 
 
-
-
 ### Todo: 
 1. A good README
 2. Fully completed design
