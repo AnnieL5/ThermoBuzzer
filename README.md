@@ -6,8 +6,6 @@ This device integrates a thermosensor, buzzer, and a button, and can make alarms
 
 One Saturday afternoon my father left the stove, with the water heating up, for almost half an hour until the pot boiled dry and the fire alarm turned on, simply because he forgot the fact that the stove is still on. That moment inspired me to make a change - to build a device that could sense the temperature and alarm people that the burner is still active. 
 
-
-
 ### Todo: 
 1. A good README
 2. Fully completed design
@@ -33,8 +31,21 @@ Once the temperature continuously reaches 50 degrees (able to modify using a con
 
 Once the temperature reaches 70 degrees (able to modify using a constant), ThermoBuzzer will beep continuously right away until the button is clicked.
 
+## Product Design
 ### Circuit Diagram
 ![alt text](images/image1.jpg)
+
+### Sub-circuit Description
+Diagrams from www.circuitbasics.com. 
+#### Temperature sensor (NTC MF11) and Arduino
+
+NTC MF11
+The value of the resistor should be roughly equal to the resistance of the thermistor.
+![alt text](image.png)
+
+#### Buzzer, Button and Arduino
+
+![alt text](image-1.png)
 
 ## Requirements (Need future work)
 | Req # | Requirements | Comments |
