@@ -43,6 +43,44 @@ NTC MF11
 The value of the resistor should be roughly equal to the resistance of the thermistor.
 ![alt text](image.png)
 
+#### OR 
+
+BME280
+https://randomnerdtutorials.com/bme280-sensor-arduino-pressure-temperature-humidity/
+
+https://docs.cirkitdesigner.com/component/3d8e6da8-841a-47a6-a1aa-0aa902c905e1/aht20bmp280
+
+
+Code: https://randomnerdtutorials.com/bme280-sensor-arduino-pressure-temperature-humidity/
+
+Arduino Library: adafruit bme280
+
+1. Version 1 - I2C communication
+
+| BME280 |	Arduino |
+|--|--|
+|Vin | 	5V |
+|GND |	GND |
+|SCL |	A5 |
+|SDA |	A4 |
+
+2. Version 2 - SPI or I2C communication
+
+| BME280 |	Arduino |
+|--|--|
+|Vin | 	5V |
+|GND |	GND |
+|SCL |	A5 |
+|SDA |	A4 |
+
+| BME280 |	Arduino |
+|--|--|
+|SCK (SPI Clock)|	Pin 13|
+|SDO (MISO)|	Pin 12|
+|SDI (MOSI)|	Pin 11|
+|CS (Chip Select)|	Pin 10|
+
+
 #### Buzzer, Button and Arduino
 
 ![alt text](image-1.png)
