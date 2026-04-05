@@ -27,3 +27,11 @@ For temperature sensor:
 
 Tomorrow:
 - Verify if the buzzer needs a capacitor
+
+## April 4
+Completed
+- Buzzer does not need a capacitor
+- Changed schematics a bit - compile a sketch that includes both thermosensors
+- Started and almost done with footprints
+Tomorrow:
+- Hopefully finish footprints and work on pcb tomorrow!!
