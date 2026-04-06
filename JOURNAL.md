@@ -35,3 +35,12 @@ Completed
 - Started and almost done with footprints
 Tomorrow:
 - Hopefully finish footprints and work on pcb tomorrow!!
+
+## 4.5
+- [x] Researched more in terms of powering the system
+   - Switch from arduino nano to arduino pro mini
+      - able to power with 3.3v - same as thermosensor
+      - power with a AA battery & a step up converter
+      
+Tomorrow:
+- research scale up converter + buzzer
