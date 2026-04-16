@@ -44,3 +44,16 @@ Tomorrow:
       
 Tomorrow:
 - research scale up converter + buzzer
+
+## 4.6
+- [ ]Finalize design:
+   - arduino pro mini + BME280 + AA battery + power booster
+
+## 4.15
+- [ ] continue work on schematics + footprint
+   - Update + complete the schematics
+
+Challenge: 
+- Could not figure out the footprint for arduino pro mini
+   - found one online but couldn't figure out how to import it into the project
+   - Tmr: try just copy pasting it in
