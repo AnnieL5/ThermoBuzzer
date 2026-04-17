@@ -57,3 +57,17 @@ Challenge:
 - Could not figure out the footprint for arduino pro mini
    - found one online but couldn't figure out how to import it into the project
    - Tmr: try just copy pasting it in
+
+## 4.16
+Completed:
+- Three more footprints assigned!!
+- Created my first every custom footprint
+Learned:
+- How to make a Kicad footprint
+   1. Create a rectangle
+   - Press Alt + 3 to preview
+   - To create a custom footprint: search up the datasheet for a part
+Challenge:
+- Can not find the dimension for the Arduino pro mini
+Tomorrow:
+- Arduino pro mini!!
