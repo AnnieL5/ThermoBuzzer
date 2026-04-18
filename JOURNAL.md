@@ -71,3 +71,11 @@ Challenge:
 - Can not find the dimension for the Arduino pro mini
 Tomorrow:
 - Arduino pro mini!!
+
+## 4.17
+Completed:
+- Almost done with arduino pro mini footprints!!
+Struggle:
+- could not past the schematic
+Solved with:
+- Create the footprint on with the pcb file. Modify later
