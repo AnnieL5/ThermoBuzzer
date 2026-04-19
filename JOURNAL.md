@@ -79,3 +79,14 @@ Struggle:
 - could not past the schematic
 Solved with:
 - Create the footprint on with the pcb file. Modify later
+
+## 4.18
+Completed:
+- Finish arduino pro mini footprint
+- Finish assigning pin numbers to all -> no error when importing schematic to PCB
+- Imported all parts to PCB and arranged them slightly
+Struggle:
+- Found a footprint for Battery holder 1xAA
+   - potentially switch to a pcb battery holder - searching for it on aliexpress 
+
+Potentially I can combine the pcb for this with the Garage door detector (my future project) -> cheaper to manufacture
