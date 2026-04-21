@@ -90,3 +90,12 @@ Struggle:
    - potentially switch to a pcb battery holder - searching for it on aliexpress 
 
 Potentially I can combine the pcb for this with the Garage door detector (my future project) -> cheaper to manufacture
+
+## 4.20
+Completed:
+- Added schematic + footprint for battery + voltage regulator
+
+Challenge:
+- had to calculate the operating voltage required - if 1xAA battery works
+- need to calculate resistor type for the thermometer
+   - potentially switch to LM35?

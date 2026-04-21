@@ -1,4 +1,4 @@
-26802885848772993
+26806439246994703
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106435,6 +106435,13 @@ MICRO-FIDUCIAL
 1
 1
 custom_footprints
+ND0205MA Voltage Regulator
+
+
+0
+4
+4
+custom_footprints
 OSHW-LOGO-S
 
 
@@ -106490,6 +106497,13 @@ Thin Plasic Quad Flat Package Grid 0.8 mm
 0
 32
 32
+custom_footprints
+Ultrasonic Sensor HC-SR04
+
+
+0
+4
+4
 custom_footprints
 Untitled
 
