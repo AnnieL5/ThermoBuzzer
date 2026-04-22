@@ -1958,12 +1958,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "thermosensor:ND0205MA_Voltage_Regulator"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.254 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ND0205MA_Voltage_Regulator_0_1"
+				(rectangle
+					(start -11.43 0)
+					(end 0 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ND0205MA_Voltage_Regulator_1_1"
+				(pin power_in line
+					(at -13.97 -2.54 0)
+					(length 2.54)
+					(name "Vi"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -13.97 -10.16 0)
+					(length 2.54)
+					(name "Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 205.74 105.41)
+		(at 200.66 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01c9a456-a6dd-4961-9094-eca569758b40")
+		(uuid "131f995d-31ea-4cd6-960e-1b50be0374d5")
 	)
 	(junction
 		(at 113.03 34.29)
@@ -1972,10 +2108,10 @@
 		(uuid "17b54485-4c1c-440c-8cfd-0ffc80348a4e")
 	)
 	(junction
-		(at 210.82 87.63)
+		(at 232.41 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1821c9e2-6a8e-43fb-bd3a-c93338dd9021")
+		(uuid "286d3138-c037-4ab4-b5bd-5bbac2adf3d7")
 	)
 	(junction
 		(at 90.17 88.9)
@@ -1984,16 +2120,16 @@
 		(uuid "325ae77c-60e6-4b87-8e6f-98e42e61b8dd")
 	)
 	(junction
-		(at 229.87 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ac2d9f6-5f02-4bd9-a335-040eda4824ae")
-	)
-	(junction
 		(at 87.63 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3da95303-4f50-4fab-a583-d32ec57dc951")
+	)
+	(junction
+		(at 232.41 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f4b5c38-4e63-4c88-bb39-c565ff53d9c3")
 	)
 	(junction
 		(at 72.39 55.88)
@@ -2002,28 +2138,40 @@
 		(uuid "42e50505-1628-4aff-8415-a2283c26b05e")
 	)
 	(junction
-		(at 208.28 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f160fae-5fc6-42df-9b60-a940b8ed43ab")
-	)
-	(junction
-		(at 187.96 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "543cfe08-85dc-4bd8-9964-01ed5ffc1fc5")
-	)
-	(junction
 		(at 113.03 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b56cb6e-19e4-4539-9e63-30ba489cd5a1")
 	)
 	(junction
-		(at 185.42 86.36)
+		(at 223.52 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8cef14e4-98cd-464a-8139-542c19869c3a")
+		(uuid "71d7ebed-0026-4e10-8eeb-651476ed06a9")
+	)
+	(junction
+		(at 203.2 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "747d9798-c0a5-46aa-9542-af26b43e26b4")
+	)
+	(junction
+		(at 220.98 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a20ae7a-ea25-4198-b385-c699c1f9d83e")
+	)
+	(junction
+		(at 158.75 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e57061-fdab-46b9-b8ee-0aa2ea119d51")
+	)
+	(junction
+		(at 185.42 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9671905c-079a-4423-bdb2-0d98e0f706f2")
 	)
 	(junction
 		(at 107.95 34.29)
@@ -2044,10 +2192,10 @@
 		(uuid "aaaab645-4717-4341-adff-17a0223b19ec")
 	)
 	(junction
-		(at 205.74 86.36)
+		(at 220.98 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b573dbd5-a98a-42cf-bec6-339d1b087fc4")
+		(uuid "cca4a5f7-95f8-4f49-ba7e-9f23c6df0543")
 	)
 	(junction
 		(at 236.22 36.83)
@@ -2056,16 +2204,20 @@
 		(uuid "d6c6f111-4291-40f7-88e4-947d76a9ef15")
 	)
 	(junction
-		(at 143.51 132.08)
+		(at 245.11 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3ff7bbe-cf80-4390-bfc4-604da43b9096")
+		(uuid "e873196c-94e9-4265-975b-a53657234a3b")
 	)
-	(junction
-		(at 170.18 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f93d09a2-a38d-4685-9e2f-fecae06908ec")
+	(wire
+		(pts
+			(xy 219.71 120.65) (xy 227.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00230642-9528-4ad3-b2ec-9af60a99ab5f")
 	)
 	(wire
 		(pts
@@ -2089,13 +2241,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 120.65) (xy 208.28 105.41)
+			(xy 227.33 120.65) (xy 227.33 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10773df7-a0ce-4b24-9f14-50e6b6836cfa")
+		(uuid "09acd535-2859-4db9-ae06-8983b77fb6e0")
 	)
 	(wire
 		(pts
@@ -2139,13 +2291,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 140.97) (xy 208.28 140.97)
+			(xy 171.45 113.03) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17a89d3d-ee63-4b0d-8d07-679e7208034e")
+		(uuid "17c33bed-08bb-47e4-9dde-7b188c52235b")
 	)
 	(wire
 		(pts
@@ -2159,33 +2311,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 157.48 97.79)
+			(xy 220.98 91.44) (xy 226.06 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bae6501-4f07-40cb-84ee-2199b5c026b8")
-	)
-	(wire
-		(pts
-			(xy 162.56 116.84) (xy 170.18 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3f58ed-cc72-440b-9860-0675836232d3")
-	)
-	(wire
-		(pts
-			(xy 208.28 105.41) (xy 205.74 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2272c536-9462-4fc7-9a33-28e7d2b35aa3")
+		(uuid "219ddb34-9862-4110-aabd-551c4fa3e714")
 	)
 	(wire
 		(pts
@@ -2199,23 +2331,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 125.73) (xy 208.28 125.73)
+			(xy 247.65 115.57) (xy 247.65 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2736ac74-7bd0-4936-9a7e-08596e89d34a")
+		(uuid "261b7fdb-a56a-445d-b5f0-0afc011455a0")
 	)
 	(wire
 		(pts
-			(xy 204.47 105.41) (xy 205.74 105.41)
+			(xy 243.84 113.03) (xy 243.84 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ae3b814-f0c8-4da1-83f3-3de1c88e46e0")
+		(uuid "29aba7ba-fd1e-4ffe-be85-1b7e66d6bc90")
+	)
+	(wire
+		(pts
+			(xy 242.57 113.03) (xy 242.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5789ba-a4d6-4ea9-adeb-b4fa3f4d9ffd")
 	)
 	(wire
 		(pts
@@ -2259,26 +2401,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 140.97) (xy 229.87 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2f09ec-7d0f-4e25-8f92-557db315abfd")
-	)
-	(wire
-		(pts
-			(xy 232.41 105.41) (xy 229.87 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2c09b4-d8b0-4225-a60b-65fed808c273")
-	)
-	(wire
-		(pts
 			(xy 232.41 54.61) (xy 241.3 54.61)
 		)
 		(stroke
@@ -2289,33 +2411,33 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 116.84) (xy 143.51 116.84)
+			(xy 219.71 110.49) (xy 220.98 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "382e2c1c-1c9f-4779-a161-679185b4a611")
+		(uuid "3946b581-5547-4238-bae8-b2bc8b74d44c")
 	)
 	(wire
 		(pts
-			(xy 143.51 140.97) (xy 187.96 140.97)
+			(xy 223.52 133.35) (xy 223.52 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e9ba4f7-1a29-4b20-bdc6-400bfea7f586")
+		(uuid "3f696fc1-2537-41ad-a0bc-9b9a48f723fd")
 	)
 	(wire
 		(pts
-			(xy 229.87 105.41) (xy 229.87 140.97)
+			(xy 172.72 91.44) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3efd3a64-5c7e-438c-93fd-6fe0f060e4cc")
+		(uuid "3fb830eb-d51e-41f6-91c8-c45ff96729ad")
 	)
 	(wire
 		(pts
@@ -2329,13 +2451,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 110.49) (xy 232.41 110.49)
+			(xy 175.26 113.03) (xy 171.45 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4209a104-16be-44c8-9965-ea8c7f0afc06")
+		(uuid "43118fbe-f6ef-4c5b-b566-a40417580c93")
 	)
 	(wire
 		(pts
@@ -2349,6 +2471,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 110.49) (xy 245.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457c29ed-9697-4390-a11a-b9521c69b900")
+	)
+	(wire
+		(pts
 			(xy 236.22 52.07) (xy 236.22 36.83)
 		)
 		(stroke
@@ -2359,6 +2491,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 128.27) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3d2bf9-ed07-4ee7-8315-6762d7b16596")
+	)
+	(wire
+		(pts
 			(xy 196.85 67.31) (xy 196.85 59.69)
 		)
 		(stroke
@@ -2366,16 +2508,6 @@
 			(type default)
 		)
 		(uuid "505f436d-85ed-4deb-9410-b8990d3da43f")
-	)
-	(wire
-		(pts
-			(xy 208.28 128.27) (xy 208.28 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50621dc3-8f00-41ff-8a50-ca027c84b421")
 	)
 	(wire
 		(pts
@@ -2399,43 +2531,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 205.74 86.36)
+			(xy 172.72 102.87) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "542621d1-e2de-4590-9362-86449671fdee")
+		(uuid "5763a0be-9ad1-4e82-b64a-5b4602697e31")
 	)
 	(wire
 		(pts
-			(xy 227.33 87.63) (xy 227.33 101.6)
+			(xy 245.11 110.49) (xy 245.11 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5456b4dd-d500-4c94-9c15-44593cc09a75")
-	)
-	(wire
-		(pts
-			(xy 227.33 106.68) (xy 210.82 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5542899a-aeeb-48ad-97e1-dc2c202e6bbd")
-	)
-	(wire
-		(pts
-			(xy 210.82 87.63) (xy 227.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7103be-a660-48b8-879b-6f165aae15c7")
+		(uuid "5974f306-16c9-40bf-bd65-2adddc662339")
 	)
 	(wire
 		(pts
@@ -2446,16 +2558,6 @@
 			(type default)
 		)
 		(uuid "5eff1538-967b-4e11-bbbd-5cbf7870f716")
-	)
-	(wire
-		(pts
-			(xy 204.47 123.19) (xy 208.28 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61caccbc-ca26-481f-9b01-2d964731c8b6")
 	)
 	(wire
 		(pts
@@ -2479,13 +2581,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 116.84) (xy 170.18 107.95)
+			(xy 242.57 113.03) (xy 243.84 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b8e0058-e555-4cf6-99cb-64b627128945")
+		(uuid "687446f8-0ce0-4670-9adf-c68e3a38e6a6")
+	)
+	(wire
+		(pts
+			(xy 170.18 121.92) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf9381e-b97f-4594-89bf-9efc3016bbb2")
 	)
 	(wire
 		(pts
@@ -2499,13 +2611,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 113.03) (xy 232.41 113.03)
+			(xy 158.75 137.16) (xy 158.75 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70ecf253-e44a-4c78-b2da-8980f4c9e851")
+		(uuid "6f3506a2-28f7-40b9-803a-897ed4aa6e8f")
+	)
+	(wire
+		(pts
+			(xy 200.66 91.44) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f37c126-a489-4c4c-aa9e-5430c0e7e941")
+	)
+	(wire
+		(pts
+			(xy 223.52 125.73) (xy 223.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f43b6fd-285c-4c62-8180-76f016ef4c1f")
 	)
 	(wire
 		(pts
@@ -2529,13 +2661,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 132.08) (xy 170.18 132.08)
+			(xy 223.52 110.49) (xy 220.98 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7563fee9-aeb5-42e2-b3c7-b2f238ab1a74")
+		(uuid "7502a0d7-ae5c-4a25-88ee-226e6e77932a")
+	)
+	(wire
+		(pts
+			(xy 226.06 92.71) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75959253-ca87-43e4-a5ad-fea3edee5f26")
 	)
 	(wire
 		(pts
@@ -2559,23 +2701,33 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.95) (xy 156.21 107.95)
+			(xy 242.57 111.76) (xy 232.41 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7860546d-5a29-42f2-a279-9c873fc5c96b")
+		(uuid "789821c4-6192-4209-b0c3-1de8c3361113")
 	)
 	(wire
 		(pts
-			(xy 170.18 123.19) (xy 175.26 123.19)
+			(xy 247.65 110.49) (xy 245.11 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a5716d5-664b-4030-9f91-5115f294609b")
+		(uuid "7acdcdc8-32a8-4e66-a8c1-72079b32d9eb")
+	)
+	(wire
+		(pts
+			(xy 185.42 113.03) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b33678c-5795-42f7-813b-2a5fa312ba6b")
 	)
 	(wire
 		(pts
@@ -2589,13 +2741,33 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 107.95) (xy 228.6 105.41)
+			(xy 227.33 102.87) (xy 232.41 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f0c5029-49c7-4a74-9339-ff2b53f75fd1")
+		(uuid "7ce05774-4f14-40a5-8dff-8a52f9d45026")
+	)
+	(wire
+		(pts
+			(xy 242.57 92.71) (xy 242.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83096751-f23f-4ac7-88e4-b2882b1beaa9")
+	)
+	(wire
+		(pts
+			(xy 185.42 133.35) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89837e47-aad7-4cf4-8f4f-39194bea7606")
 	)
 	(wire
 		(pts
@@ -2609,33 +2781,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 87.63) (xy 210.82 86.36)
+			(xy 219.71 115.57) (xy 247.65 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e6f7fdb-15cb-44e4-90f4-06cf3d16bab0")
+		(uuid "8d5c106e-53ec-41fb-8815-bcc0964a0ba9")
 	)
 	(wire
 		(pts
-			(xy 143.51 132.08) (xy 143.51 140.97)
+			(xy 203.2 146.05) (xy 223.52 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9204430d-dadc-40bb-bf81-da3650a83925")
-	)
-	(wire
-		(pts
-			(xy 227.33 107.95) (xy 228.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c55e0b-0db1-4ee9-9edd-0d446ea714e4")
+		(uuid "948d2a84-8c0d-40db-bd41-2d126d413f7d")
 	)
 	(wire
 		(pts
@@ -2649,13 +2811,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 107.95) (xy 227.33 106.68)
+			(xy 219.71 118.11) (xy 247.65 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98d48b39-49e0-43ae-bf07-2cc8252167a2")
+		(uuid "9af7fc51-aeb5-4b87-9a18-0eb07cd9767a")
 	)
 	(wire
 		(pts
@@ -2666,16 +2828,6 @@
 			(type default)
 		)
 		(uuid "9bdec896-48c7-459c-ac1c-443b6c7b1399")
-	)
-	(wire
-		(pts
-			(xy 205.74 105.41) (xy 205.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f823960-fed1-4fca-922f-32c5268c2ab0")
 	)
 	(wire
 		(pts
@@ -2699,6 +2851,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 106.68) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa9050d-0223-4b93-864f-11e4c80619e7")
+	)
+	(wire
+		(pts
 			(xy 58.42 45.72) (xy 59.69 45.72)
 		)
 		(stroke
@@ -2706,46 +2868,6 @@
 			(type default)
 		)
 		(uuid "acfedf63-778f-4dde-879b-b5f929181df0")
-	)
-	(wire
-		(pts
-			(xy 227.33 101.6) (xy 232.41 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeaa769f-3298-43d0-b170-e34895cff6cd")
-	)
-	(wire
-		(pts
-			(xy 170.18 107.95) (xy 175.26 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af32d573-8b37-451f-8031-a5aa9acf7394")
-	)
-	(wire
-		(pts
-			(xy 210.82 97.79) (xy 210.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ba95db-b9ae-49ec-9fd5-d1185ef423a1")
-	)
-	(wire
-		(pts
-			(xy 170.18 128.27) (xy 170.18 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7cef67c-5d7d-4b75-8b9d-edcb397f196a")
 	)
 	(wire
 		(pts
@@ -2759,13 +2881,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 185.42 86.36)
+			(xy 171.45 102.87) (xy 172.72 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdec2fca-8eae-447a-8dea-9ce0eb234c0f")
+		(uuid "b810fc54-77fe-4866-9350-8c1567e23374")
+	)
+	(wire
+		(pts
+			(xy 223.52 146.05) (xy 245.11 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba59f7aa-1ee1-4299-beb3-a797a41ff4ae")
 	)
 	(wire
 		(pts
@@ -2799,13 +2931,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 86.36) (xy 210.82 86.36)
+			(xy 232.41 102.87) (xy 232.41 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d19f5f09-5a1e-444b-8146-f43e96f6dac5")
+		(uuid "cfd0c61c-2a35-4bf7-888a-33e938e9d5a9")
+	)
+	(wire
+		(pts
+			(xy 219.71 130.81) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ed1e65-ee92-4844-81a6-66da297087aa")
 	)
 	(wire
 		(pts
@@ -2829,6 +2971,36 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 121.92) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d636b83f-ed14-439f-9c1b-2107ef14e50c")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 158.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65e11e9-0e40-43ba-91e9-d4dc9ebc32c5")
+	)
+	(wire
+		(pts
+			(xy 226.06 92.71) (xy 232.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d674c596-4592-4674-b634-09eccace472b")
+	)
+	(wire
+		(pts
 			(xy 90.17 82.55) (xy 90.17 88.9)
 		)
 		(stroke
@@ -2836,6 +3008,16 @@
 			(type default)
 		)
 		(uuid "d854e299-21b0-49f1-a9ef-25e436fd6c19")
+	)
+	(wire
+		(pts
+			(xy 185.42 128.27) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e019aa-e994-4b12-8428-1385ee44db42")
 	)
 	(wire
 		(pts
@@ -2849,16 +3031,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 107.95) (xy 156.21 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da95a1a4-8ae2-4fd7-88c2-4e7a74d05c06")
-	)
-	(wire
-		(pts
 			(xy 59.69 45.72) (xy 59.69 34.29)
 		)
 		(stroke
@@ -2869,13 +3041,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 116.84) (xy 143.51 132.08)
+			(xy 232.41 92.71) (xy 242.57 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e62cf3fc-1a41-474b-a531-e8e5e5339384")
+		(uuid "e6ed2280-c4d0-495f-b3e5-127ac1c90334")
+	)
+	(wire
+		(pts
+			(xy 158.75 146.05) (xy 203.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e847e2f6-e53c-4275-adbf-30607c602bc4")
 	)
 	(wire
 		(pts
@@ -2889,16 +3071,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 157.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa7359c-7575-4b80-ac5b-29e6c8313470")
-	)
-	(wire
-		(pts
 			(xy 127 57.15) (xy 127 55.88)
 		)
 		(stroke
@@ -2909,109 +3081,43 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 105.41) (xy 229.87 105.41)
+			(xy 177.8 121.92) (xy 185.42 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f20b05fa-5ce3-4cd6-ae91-72c76fe4a6dc")
+		(uuid "f321bde4-e64b-4803-84af-db3e49513694")
 	)
 	(wire
 		(pts
-			(xy 187.96 134.62) (xy 187.96 140.97)
+			(xy 220.98 110.49) (xy 220.98 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2a6e153-810f-4335-bb98-31bff505b516")
+		(uuid "fe1f3c5b-2a0b-4a59-b05b-377f66528d80")
 	)
 	(wire
 		(pts
-			(xy 232.41 110.49) (xy 232.41 109.22)
+			(xy 158.75 137.16) (xy 185.42 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc4477fe-034d-4d1d-8821-a44bfeb55f75")
+		(uuid "fedce309-48e2-40f1-9ea4-1ac30d4b6bae")
 	)
-	(symbol
-		(lib_id "thermosensor:BME280_new")
-		(at 248.92 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04a88a0f-72e8-40c3-8268-57358b7b2424")
-		(property "Reference" "BME1"
-			(at 248.92 104.6451 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 203.2 146.05)
 		)
-		(property "Value" "~"
-			(at 248.92 107.1851 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" "custom_footprints:AHT20+BMP280"
-			(at 248.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "24702d08-8186-407e-9877-734833ec2aa1")
-		)
-		(pin "1"
-			(uuid "b1cd95e5-7524-4bf8-8c33-51b41754ae89")
-		)
-		(pin "3"
-			(uuid "ae43f1f4-1287-486a-aba3-7220915eb82a")
-		)
-		(pin "2"
-			(uuid "243b5dbd-e7aa-429f-b7e5-1801bf45f194")
-		)
-		(instances
-			(project "ThermoBuzzer_pcb"
-				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "BME1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ffe284c5-efc8-43e2-a254-818923d2eb09")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3073,71 +3179,6 @@
 			(project "ThermoBuzzer_pcb"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 185.42 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b00c84a-df5d-4859-9ef6-ad4024618275")
-		(property "Reference" "#PWR011"
-			(at 185.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77a1d7e5-5d65-4fec-862e-962f006008a7")
-		)
-		(instances
-			(project "ThermoBuzzer_pcb"
-				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3278,16 +3319,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 104.14 0)
+		(at 151.13 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "138a8b9d-088a-40b2-b672-d4e09519b5dd")
-		(property "Reference" "#PWR010"
-			(at 138.43 110.49 0)
+		(uuid "12c02eb6-94b2-4a15-99b3-e494a98dd22f")
+		(property "Reference" "#PWR015"
+			(at 151.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 109.22 0)
+			(at 151.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 104.14 0)
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 104.14 0)
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 104.14 0)
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,12 +3372,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "a42566cc-146b-48c1-99a0-729e4503bbe9")
+			(uuid "6aab67ec-7335-4d23-bd9c-7d3984589940")
 		)
 		(instances
-			(project "ThermoBuzzer_pcb"
+			(project "ThermoBuzzer_pcb_all"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "#PWR010")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 151.13 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14144131-1fd4-4bfb-a33a-94e28f2e1533")
+		(property "Reference" "#PWR014"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.5V"
+			(at 146.558 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46189497-23ab-465d-9974-ac976d3dd9a3")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3413,34 +3519,33 @@
 		)
 	)
 	(symbol
-		(lib_id "thermosensor:Arduino_pro_mini")
-		(at 207.01 91.44 0)
+		(lib_id "power:+3.3V")
+		(at 151.13 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "27159cd0-6d74-4080-b600-d68f98184afa")
-		(property "Reference" "arduino_pro_mini3"
-			(at 182.88 90.17 0)
+		(uuid "2bc4132a-e199-43e7-8b72-7bf1195b24af")
+		(property "Reference" "#PWR013"
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 197.7233 133.35 0)
+		(property "Value" "+1.5V"
+			(at 145.288 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprints:arduino_pro_mini_new"
-			(at 207.01 91.44 0)
+		(property "Footprint" ""
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 91.44 0)
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,8 +3562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 207.01 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,115 +3571,13 @@
 				(hide yes)
 			)
 		)
-		(pin "b3"
-			(uuid "e17a87b6-df66-4637-a586-89b149eea6c9")
-		)
-		(pin "r10"
-			(uuid "af5149dc-203e-4497-aed4-73c6479e43b1")
-		)
-		(pin "r11"
-			(uuid "57f539e3-ac06-48c0-951c-0b7575e03621")
-		)
-		(pin "r12"
-			(uuid "3d34bac3-92e6-4ff5-ba55-5305a1360c99")
-		)
-		(pin "m1"
-			(uuid "288f7bcd-31ac-4eb0-8828-ebaa986d1bcc")
-		)
-		(pin "r9"
-			(uuid "6ce24eed-ffaa-4be2-bd99-1bc2c9ed5df1")
-		)
-		(pin "l3"
-			(uuid "85e4f9ac-9cfb-43de-b6ee-c78de82ebe48")
-		)
-		(pin "l10"
-			(uuid "0fb99474-c12d-4abf-a4d6-58c5d1cd9fa6")
-		)
-		(pin "t5"
-			(uuid "8b5d1536-3bd0-42ba-83e1-88fff588dcf3")
-		)
-		(pin "l6"
-			(uuid "c4e65bd6-f71a-4189-b750-5e4906b7fafc")
-		)
-		(pin "t6"
-			(uuid "25ea499b-183f-476c-99fa-d6ce54f7ed48")
-		)
-		(pin "r3"
-			(uuid "2abc83ab-7c68-413f-a282-f1ce057400f6")
-		)
-		(pin "r2"
-			(uuid "89de3fe1-507d-4ff2-9b20-14f2653eb7fa")
-		)
-		(pin "l9"
-			(uuid "2c01dbe3-73c9-4e30-b761-302a405b62e0")
-		)
-		(pin "b2"
-			(uuid "4f86833a-7815-4618-b5b2-c9b829fc5d5d")
-		)
-		(pin "r5"
-			(uuid "78fedc14-711c-4ef9-bbc4-30b3c9eda2a8")
-		)
-		(pin "l12"
-			(uuid "b2e70c7a-7530-4777-9540-c156ca846103")
-		)
-		(pin "l7"
-			(uuid "08619813-f441-4d1b-b57d-94d0a4968809")
-		)
-		(pin "b1"
-			(uuid "b6086094-0e8f-4e3d-8ff2-39212ba08db2")
-		)
-		(pin "t2"
-			(uuid "164adffe-6d21-4314-9914-3e66d46a4cda")
-		)
-		(pin "r7"
-			(uuid "dc37070f-3ff7-459a-97c9-d7ccd1101379")
-		)
-		(pin "l11"
-			(uuid "b0fda924-e657-4a27-a723-97d6fb8f2298")
-		)
-		(pin "l4"
-			(uuid "789a842f-abdf-4722-8592-b56b03906e30")
-		)
-		(pin "t4"
-			(uuid "00ac2d78-5c60-4ac4-b8a6-649b21444b73")
-		)
-		(pin "r6"
-			(uuid "c380a685-f3d5-48ae-8a76-b2c2e2e7a063")
-		)
-		(pin "r8"
-			(uuid "397cac55-b415-4199-8989-a902e84fddd6")
-		)
-		(pin "l8"
-			(uuid "0a1f2e25-da5b-4b73-a0c9-a417840b9cb5")
-		)
-		(pin "r4"
-			(uuid "0541e427-9554-4dda-b8df-3149769e2834")
-		)
-		(pin "r1"
-			(uuid "b0c769b4-5105-4c24-96f9-9d3f83cae890")
-		)
-		(pin "l1"
-			(uuid "efc58ed5-36ab-4b4e-bf91-d166dabb4b18")
-		)
-		(pin "m2"
-			(uuid "5f1306d8-d94c-4091-9968-4c0bdc7bfabb")
-		)
-		(pin "l2"
-			(uuid "d537f80f-67cf-4951-807c-c016666d55c0")
-		)
-		(pin "l5"
-			(uuid "a8a42f3b-bb9e-45e6-bca7-3bd75e27a5ae")
-		)
-		(pin "t3"
-			(uuid "aabe31ac-d0b8-49e8-bf3b-2b696d04a7d8")
-		)
-		(pin "t1"
-			(uuid "f08ac658-aac6-4df0-a926-b60892ffcfe3")
+		(pin "1"
+			(uuid "1b3e0d92-35f2-48db-9f6b-5255492a0aee")
 		)
 		(instances
-			(project "ThermoBuzzer_pcb"
+			(project "ThermoBuzzer_pcb_all"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "arduino_pro_mini3")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3749,71 +3752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 138.43 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35e997bc-8b94-4610-a1c1-2068ab796152")
-		(property "Reference" "#PWR07"
-			(at 138.43 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97679211-b38f-4f45-8fea-f9ff96fa534d")
-		)
-		(instances
-			(project "ThermoBuzzer_pcb"
-				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 184.15 41.91 0)
 		(unit 1)
@@ -3874,72 +3812,6 @@
 			(project "ThermoBuzzer_pcb"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bac4b8c-d156-4091-86af-b4f3b01d7809")
-		(property "Reference" "#PWR012"
-			(at 187.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a4238bc-b783-4df3-885d-f4033fb651cf")
-		)
-		(instances
-			(project "ThermoBuzzer_pcb"
-				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4114,6 +3986,82 @@
 		)
 	)
 	(symbol
+		(lib_id "thermosensor:BME280_new")
+		(at 264.16 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43862696-5924-4c18-9ae0-4f11144649e0")
+		(property "Reference" "BME2"
+			(at 264.16 109.7251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 112.2651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom_footprints:AHT20+BMP280"
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f6a46921-a1a0-4f90-99e1-5bd8e638d900")
+		)
+		(pin "1"
+			(uuid "adb5c028-e221-4dd2-876e-42bac3a6092e")
+		)
+		(pin "3"
+			(uuid "a6ea5368-25b6-423c-8718-5d139fba0baa")
+		)
+		(pin "2"
+			(uuid "97f59504-ea94-4ae5-9f46-27fc7c6abcde")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "BME2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 33.02 49.53 0)
 		(unit 1)
@@ -4184,15 +4132,15 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 138.43 101.6 0)
+		(at 151.13 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5858b810-856d-4c81-a8ae-c3f2f2609300")
-		(property "Reference" "BT3"
-			(at 142.24 98.4884 0)
+		(uuid "5733c79e-fb4e-43ff-a08c-a601df17837d")
+		(property "Reference" "BT4"
+			(at 154.94 111.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4149,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 142.24 101.0284 0)
+			(at 154.94 113.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,8 +4157,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
-			(at 138.43 100.076 90)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_2460_1xAA"
+			(at 151.13 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 100.076 90)
+			(at 151.13 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4176,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 138.43 101.6 0)
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,31 +4185,97 @@
 			)
 		)
 		(pin "2"
-			(uuid "42509a27-c0c6-4a1c-9026-a6a171a4bcc8")
+			(uuid "aeae0cef-57f9-4a73-9c05-fffcf3b2724e")
 		)
 		(pin "1"
-			(uuid "7da58d1d-2bc4-4966-8670-c90178a92345")
+			(uuid "840f5847-d3ad-4c1c-a2eb-c576e6b8f997")
 		)
 		(instances
-			(project "ThermoBuzzer_pcb"
+			(project "ThermoBuzzer_pcb_all"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "BT3")
+					(reference "BT4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor")
-		(at 210.82 92.71 0)
+		(lib_id "power:+3.3V")
+		(at 200.66 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6f4bc8bf-13a4-43b7-bc97-79e738a2e7c6")
-		(property "Reference" "TH2"
-			(at 214.63 91.4399 0)
+		(uuid "5a8410fb-31a2-46db-a91b-24c0ef7c4c46")
+		(property "Reference" "#PWR017"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "682293d8-b90b-40c7-b1c5-f084090f3650")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757dab09-2306-462d-b943-c396c81c414f")
+		(property "Reference" "R6"
+			(at 234.95 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,8 +4283,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor"
-			(at 215.9 93.98 0)
+		(property "Value" "100k"
+			(at 234.95 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 210.82 92.71 0)
+			(at 230.632 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 92.71 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,93 +4310,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature dependent resistor"
-			(at 210.82 92.71 0)
+		(property "Description" "Resistor"
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "d4946c97-ef3e-479d-a81b-5cd2603012d6")
 		)
 		(pin "1"
-			(uuid "daff1b63-92ca-40c7-b425-681bf00b025d")
-		)
-		(instances
-			(project "ThermoBuzzer_pcb"
-				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "TH2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 165.1 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "756420b3-7410-4bc6-bb76-4b7c27266bea")
-		(property "Reference" "SW2"
-			(at 165.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "fe430b94-cdc1-4eb8-8ba1-2be357bce001")
 		)
 		(pin "2"
-			(uuid "e47e1b25-563e-40be-95fe-5803fa3e6040")
-		)
-		(pin "1"
-			(uuid "b7aee1fb-b1ee-4a71-8d98-b79c8aa31575")
+			(uuid "be13034e-4b39-4026-bbb2-77d3b46d0773")
 		)
 		(instances
-			(project "ThermoBuzzer_pcb"
+			(project "ThermoBuzzer_pcb_all"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "SW2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4530,6 +4476,81 @@
 		)
 	)
 	(symbol
+		(lib_id "thermosensor:ND0205MA_Voltage_Regulator")
+		(at 148.59 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89a2259f-20c8-44b0-95c8-fa41168ec882")
+		(property "Reference" "U3"
+			(at 153.6699 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 156.2099 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom_footprints:ND0205MA Voltage Regulator"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "38cc8140-2645-411a-a971-2c530170ee96")
+		)
+		(pin "1"
+			(uuid "e90fc74a-838a-4bfa-8086-93e7448c251d")
+		)
+		(pin "2"
+			(uuid "0f3bca4c-4188-4115-871a-3647be8235a2")
+		)
+		(pin "3"
+			(uuid "36caca23-1c80-4f17-8926-443bcbc08aec")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "thermosensor:HC-SR04")
 		(at 252.73 49.53 0)
 		(unit 1)
@@ -4600,6 +4621,71 @@
 			(project ""
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95b8bf8a-0d18-4aa3-91e5-8f9350ded8a2")
+		(property "Reference" "#PWR016"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a24d62-f4eb-4bd4-b1dd-714c03dcf86c")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4741,6 +4827,311 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Thermistor")
+		(at 232.41 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a372b2e2-4df1-4b8a-a0b7-f30742d98c24")
+		(property "Reference" "TH3"
+			(at 236.22 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 237.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88684d3c-7cff-4094-9ca5-352f1c7d7829")
+		)
+		(pin "1"
+			(uuid "b9230863-95d6-49d9-b615-334657621368")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "thermosensor:Arduino_pro_mini")
+		(at 222.25 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a17cc7-74e6-4d45-824a-9c84651a06b8")
+		(property "Reference" "arduino_pro_mini4"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 212.9633 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom_footprints:arduino_pro_mini_new"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "b3"
+			(uuid "b1cdad91-820a-4f12-8a02-a4039323d1a5")
+		)
+		(pin "r10"
+			(uuid "5ecfa202-a199-4d5b-abe6-edd488bac1ba")
+		)
+		(pin "r11"
+			(uuid "0a16ee2c-7fe9-4dfb-84e3-174e7c49e5cc")
+		)
+		(pin "r12"
+			(uuid "f7f597c0-bf87-44e1-88b4-36dacb417dfb")
+		)
+		(pin "m1"
+			(uuid "db950b41-425f-4069-b2a4-aa8aa74b1d96")
+		)
+		(pin "r9"
+			(uuid "ffb41292-9a5e-481f-a03d-98cd5448f8c4")
+		)
+		(pin "l3"
+			(uuid "ae8d88dd-a83e-4e21-9ed8-aa16ee240ad3")
+		)
+		(pin "l10"
+			(uuid "e07d98fa-b469-4a1c-97ba-7bd8c5f4fae4")
+		)
+		(pin "t5"
+			(uuid "9d0f7813-c4bf-4c84-8870-49e259c15fd3")
+		)
+		(pin "l6"
+			(uuid "2439c807-1886-4658-a2a6-f9d2ed79273d")
+		)
+		(pin "t6"
+			(uuid "ac897ed2-d5fd-4139-a037-bd42c393da65")
+		)
+		(pin "r3"
+			(uuid "29199e59-7dcf-4669-90b9-909e04c9069f")
+		)
+		(pin "r2"
+			(uuid "1f77fa81-d6f5-4179-98af-e66280612314")
+		)
+		(pin "l9"
+			(uuid "01f2d077-c2e1-4230-845c-6f5977bbc2eb")
+		)
+		(pin "b2"
+			(uuid "70cde6d7-c00e-451e-ae71-f7f45492c802")
+		)
+		(pin "r5"
+			(uuid "622e8792-7cdb-40be-97bf-8500666ac0f6")
+		)
+		(pin "l12"
+			(uuid "11922679-cb06-4521-a479-8a134188e63e")
+		)
+		(pin "l7"
+			(uuid "8caf3698-0902-46d0-9a2c-78660aaad461")
+		)
+		(pin "b1"
+			(uuid "91d4fad4-d358-48b4-bb5c-0543c9e12248")
+		)
+		(pin "t2"
+			(uuid "1f32ac98-1c0c-49aa-b9c5-2df46577018e")
+		)
+		(pin "r7"
+			(uuid "2e3c61da-c4c1-4179-9d47-eadbb112fdcd")
+		)
+		(pin "l11"
+			(uuid "46a62b0e-fff9-4b31-99b3-77548f039e51")
+		)
+		(pin "l4"
+			(uuid "f5601f42-1f5c-4f9d-9901-161d6f3d316d")
+		)
+		(pin "t4"
+			(uuid "0110f6ec-9c6c-45a2-b913-f98bb33a5c01")
+		)
+		(pin "r6"
+			(uuid "26a921b6-8362-4310-b526-8a84d104b8f2")
+		)
+		(pin "r8"
+			(uuid "15337923-6193-4415-b2c7-6b5a32b97aaf")
+		)
+		(pin "l8"
+			(uuid "7fb5a064-6b8a-4698-9fbc-386ae83293df")
+		)
+		(pin "r4"
+			(uuid "211ea7c9-a7b9-4f86-8807-38fce16b3897")
+		)
+		(pin "r1"
+			(uuid "c6d7fb2f-c9ed-48a9-b7a3-0de74f008a92")
+		)
+		(pin "l1"
+			(uuid "b8110520-ced9-49f5-abe3-074295a24103")
+		)
+		(pin "m2"
+			(uuid "19d7d4c3-5d38-4742-96dc-894c655a6ae8")
+		)
+		(pin "l2"
+			(uuid "76ff2d2a-965a-47bd-9c06-6a4385b7a023")
+		)
+		(pin "l5"
+			(uuid "7f62db55-ede5-448e-bbf4-689009bde240")
+		)
+		(pin "t3"
+			(uuid "e420b868-356d-4004-a3fb-d01c6afa7201")
+		)
+		(pin "t1"
+			(uuid "b980edd9-e36a-40dd-805c-79259697a048")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "arduino_pro_mini4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c094f0-1354-4bd3-b937-8c73fc9cd9c5")
+		(property "Reference" "R5"
+			(at 173.99 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 173.99 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "562d7967-89b5-47bd-b05d-34f0e7a58abc")
+		)
+		(pin "2"
+			(uuid "799cffd5-a982-4757-825b-d62edec904fb")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 69.85 0)
 		(unit 1)
@@ -4805,82 +5196,6 @@
 			(project "ThermoBuzzer_pcb"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "thermosensor:HC-SR04")
-		(at 219.71 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb12dfcf-0378-4bab-9655-cb76c3e37a0b")
-		(property "Reference" "U2"
-			(at 223.52 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "713e9912-c22c-48c9-a68f-27c22a3f6dc5")
-		)
-		(pin "1"
-			(uuid "c1ab31f1-83e8-4823-8314-c4e47fb60dcc")
-		)
-		(pin "3"
-			(uuid "209319ca-614d-4ef0-8550-fcb41c2d0160")
-		)
-		(pin "2"
-			(uuid "dfa61a44-e97a-46eb-abb8-d395acc8f376")
-		)
-		(instances
-			(project "ThermoBuzzer_pcb"
-				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5156,17 +5471,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 210.82 102.87 0)
+		(lib_id "thermosensor:HC-SR04")
+		(at 234.95 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8c230ad-c574-484f-acb2-ae809010dbca")
-		(property "Reference" "R4"
-			(at 213.36 101.5999 0)
+		(uuid "d64dd08c-bd44-4b6f-8081-5804c1c0f3db")
+		(property "Reference" "U4"
+			(at 238.76 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,8 +5489,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 213.36 104.1399 0)
+		(property "Value" "~"
+			(at 238.76 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,8 +5498,82 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 209.042 102.87 90)
+		(property "Footprint" "custom_footprints:Ultrasonic Sensor HC-SR04"
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5c0c4180-bb71-4161-8020-35fcb4859b82")
+		)
+		(pin "1"
+			(uuid "51ccfea2-6f2a-49db-adbe-f667390bee96")
+		)
+		(pin "3"
+			(uuid "cba5054e-15e3-4c41-a544-46fa5391ac6f")
+		)
+		(pin "2"
+			(uuid "13049f41-5bde-4046-9647-e071a16c4665")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 180.34 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6eb9780-5a69-4941-8a57-dc095594cbc4")
+		(property "Reference" "SW3"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 180.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 102.87 0)
+			(at 180.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,25 +5590,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 210.82 102.87 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 180.34 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "dedef3ca-2f64-4154-a288-98aa1d4e7c8c")
 		)
 		(pin "2"
-			(uuid "5aef8a20-aab5-4597-9e4b-48bee1c5a194")
+			(uuid "fdec55a0-e57b-4369-9415-e9d88ec23eaa")
+		)
+		(pin "1"
+			(uuid "85e93cd2-7f82-4364-82de-89f01cc59cfe")
 		)
 		(instances
-			(project "ThermoBuzzer_pcb"
+			(project "ThermoBuzzer_pcb_all"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "R4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5297,16 +5686,16 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 167.64 125.73 0)
+		(at 182.88 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dd52d72f-2c3a-4c65-8707-7dafe52aef87")
-		(property "Reference" "BZ3"
-			(at 163.83 124.4599 0)
+		(uuid "f2d96b19-bbc7-454d-9ed3-7899aa9602db")
+		(property "Reference" "BZ4"
+			(at 179.07 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5704,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 163.83 126.9999 0)
+			(at 179.07 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5713,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 168.275 123.19 90)
+			(at 183.515 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.275 123.19 90)
+			(at 183.515 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5731,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 167.64 125.73 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,15 +5740,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8a18e58-48aa-476f-aa6d-6ec91ec46d4a")
+			(uuid "ab47d99f-45f0-412b-9b06-9b26cb83d796")
 		)
 		(pin "2"
-			(uuid "c250a0f0-0914-4380-b72d-0c47eef2ee43")
+			(uuid "2689abb2-1767-447e-b946-741c82fc7ee5")
 		)
 		(instances
-			(project "ThermoBuzzer_pcb"
+			(project "ThermoBuzzer_pcb_all"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "BZ3")
+					(reference "BZ4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f596d610-92b0-404b-9897-277f9c69f1ea")
+		(property "Reference" "#PWR018"
+			(at 203.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a11c9f3-fd12-49e4-bfe4-18735881d917")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb_all"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5426,74 +5881,6 @@
 			(project "ThermoBuzzer_pcb"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe0ce4a4-ae52-4ac7-a618-f5819e9a9a37")
-		(property "Reference" "R3"
-			(at 158.75 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 158.75 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 158.75 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6800ea54-49d9-474b-be0e-f995a4d609f5")
-		)
-		(pin "2"
-			(uuid "9d6d4e58-143c-4d94-bc4a-e67011553d77")
-		)
-		(instances
-			(project "ThermoBuzzer_pcb"
-				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
-					(reference "R3")
 					(unit 1)
 				)
 			)

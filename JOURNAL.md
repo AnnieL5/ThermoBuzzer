@@ -99,3 +99,12 @@ Challenge:
 - had to calculate the operating voltage required - if 1xAA battery works
 - need to calculate resistor type for the thermometer
    - potentially switch to LM35?
+
+## 4.21
+
+Todo:
+- Wire everything
+Challenge:
+- Optimize everything so it fits on a small board
+   - Tried different layouts
+   - Be creative!!
