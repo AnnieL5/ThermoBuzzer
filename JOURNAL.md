@@ -108,3 +108,12 @@ Challenge:
 - Optimize everything so it fits on a small board
    - Tried different layouts
    - Be creative!!
+
+## 4.22
+
+Completed
+- Revised some footprints
+   - made the hole diameter bigger for some
+   - Revised footprint layout for the thermosensor
+Tomorrow: 
+- Wire PCB!

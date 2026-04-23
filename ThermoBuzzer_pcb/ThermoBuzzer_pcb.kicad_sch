@@ -2102,6 +2102,12 @@
 		(uuid "01c9a456-a6dd-4961-9094-eca569758b40")
 	)
 	(junction
+		(at 110.49 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b450f0-acfb-403f-a00e-4f835dccfbe1")
+	)
+	(junction
 		(at 201.93 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2564,6 +2570,16 @@
 			(type default)
 		)
 		(uuid "da95a1a4-8ae2-4fd7-88c2-4e7a74d05c06")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4458970-44d4-4066-96f1-43cfe7c8d72b")
 	)
 	(wire
 		(pts
@@ -3397,6 +3413,72 @@
 			(project "ThermoBuzzer_pcb"
 				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d5b51f-1bab-4d05-ab77-be4a388b1264")
+		(property "Reference" "#PWR03"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67d55e51-4e7f-437d-b3a5-987087dda845")
+		)
+		(instances
+			(project "ThermoBuzzer_pcb"
+				(path "/1f9ac87b-b8c7-4ae1-9a16-96951cfb2dd1"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

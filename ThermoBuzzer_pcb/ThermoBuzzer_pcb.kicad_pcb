@@ -114,8 +114,6 @@
 	(net 34 "unconnected-(arduino_pro_mini1-9-Padl1)")
 	(net 35 "unconnected-(arduino_pro_mini1-A5-Padm2)")
 	(net 36 "unconnected-(arduino_pro_mini1-6-Padl4)")
-	(net 37 "unconnected-(U1-GND-Pad3)")
-	(net 38 "unconnected-(U1-GND-Pad2)")
 	(footprint "custom_footprints:AHT20+BMP280"
 		(layer "F.Cu")
 		(uuid "0af9f944-bf64-46af-a1ac-922df6cf5462")
@@ -181,7 +179,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b65342b0-bec2-4731-8c3e-7bc284180424")
+			(uuid "b590c60a-c91d-4c0a-ab44-118ed476a611")
 		)
 		(fp_line
 			(start -7 7)
@@ -191,7 +189,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c8aecc5a-dce6-40bd-bc9b-c038db0db1cf")
+			(uuid "54771fbb-d6a8-4ad0-9fee-13bca9ce9e4f")
 		)
 		(fp_line
 			(start 8 -8)
@@ -201,7 +199,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8eeb5c6c-3b96-499c-a90d-c9169903ad8e")
+			(uuid "00ee1625-6609-4da7-86a4-592ea078d5e8")
 		)
 		(fp_line
 			(start 8 7)
@@ -211,7 +209,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "eb5c63c5-8751-45ca-8f6a-de3c083e0f56")
+			(uuid "ee2488b6-44b9-4a3c-a86c-062d6c9897e7")
 		)
 		(fp_text user "VCC"
 			(at -3 -3.5 0)
@@ -279,8 +277,8 @@
 		)
 		(pad "1" thru_hole rect
 			(at -4.5 -4.08)
-			(size 1.54 1.54)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+3.3V")
@@ -290,8 +288,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at -4.5 -1.54)
-			(size 1.524 1.524)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -301,8 +299,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at -4.5 1)
-			(size 1.524 1.524)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 19 "Net-(BME1-SCL)")
@@ -312,8 +310,8 @@
 		)
 		(pad "4" thru_hole circle
 			(at -4.5 3.54)
-			(size 1.524 1.524)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 14 "Net-(BME1-SDA)")
@@ -325,7 +323,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.SilkS")
-			(uuid "d63a1a33-7cae-45ef-b1ec-793014960ef3")
+			(uuid "7ce30bb6-581e-4eee-86e0-771a6cb25c80")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -529,7 +527,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "568ed982-d593-4fb6-82ae-0dcef22a7ec2")
-		(at 99.2 82.8)
+		(at 99.2 82.804)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
@@ -1566,7 +1564,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "7e2867e0-3046-4c37-8d00-89ae7b613125")
+			(uuid "f2607ab1-586d-4507-9046-6d2355863791")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -7.36 -1.44 90)
@@ -1582,8 +1580,8 @@
 		)
 		(pad "1" thru_hole rect
 			(at -17.78 7.62 90)
-			(size 2.54 2.54)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "+1.5V")
@@ -1593,30 +1591,30 @@
 		)
 		(pad "2" thru_hole circle
 			(at -15.24 7.62 90)
-			(size 2.54 2.54)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "unconnected-(U1-GND-Pad2)")
+			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "35c08dfa-932f-42a8-b58a-df9eaad894cd")
 		)
 		(pad "3" thru_hole circle
 			(at -12.7 7.62 90)
-			(size 2.54 2.54)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "unconnected-(U1-GND-Pad3)")
+			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "2ddbb5af-5b08-42ff-a68e-10c20802b7cf")
 		)
 		(pad "4" thru_hole circle
 			(at -10.16 7.62 90)
-			(size 2.54 2.54)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+3.3V")
@@ -1685,6 +1683,17 @@
 		(sheetfile "ThermoBuzzer_pcb.kicad_sch")
 		(attr smd)
 		(fp_rect
+			(start 27.5 1.6)
+			(end 43.5 13.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "04b22043-cf9f-4777-bf54-db2a98536750")
+		)
+		(fp_rect
 			(start 17.78 -2.54)
 			(end 27.94 0)
 			(stroke
@@ -1693,18 +1702,81 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "091c00cf-4919-42a1-a9fb-9a35ff2f07b7")
+			(uuid "ab7ec5d6-f614-4036-8908-9842f64b375f")
 		)
 		(fp_rect
-			(start 0 0)
-			(end 45 13.5)
+			(start 1.5 1.6)
+			(end 17.5 13.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "f11f7ea3-4305-4f11-860a-63fc283017cc")
+			(uuid "09eb6ae9-2dc4-46b9-b47c-c6830e340d25")
+		)
+		(fp_rect
+			(start 0 0)
+			(end 45 1.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c32b5dc9-36f2-4327-8ef4-8dc035506f6f")
+		)
+		(fp_text user "TRIG"
+			(at 20 -7.1 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "08936c6e-2881-43dd-a720-a269c189103f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "ECHO"
+			(at 22.3 -5.2 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "93a28bf9-2ef9-435f-9fc9-f099be1e90b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "VCC"
+			(at 17.6 -5.2 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b728be8a-e319-4b54-8528-121b9a382c9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at 25.3 -6.7 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fe76d57d-7ca9-493d-b183-d6941bcaf281")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 180)
@@ -1721,7 +1793,7 @@
 		(dimension
 			(type orthogonal)
 			(layer "F.SilkS")
-			(uuid "7b851fd1-1f58-4a54-84eb-9185275cbe33")
+			(uuid "44420470-fd1a-48fe-b488-5aa03570ab6c")
 			(pts
 				(xy 121.05 85.3875) (xy 121.05 83.8)
 			)
@@ -1747,7 +1819,7 @@
 			(gr_text "1.5875"
 				(at 122.49 84.59375 90)
 				(layer "F.SilkS")
-				(uuid "7b851fd1-1f58-4a54-84eb-9185275cbe33")
+				(uuid "44420470-fd1a-48fe-b488-5aa03570ab6c")
 				(effects
 					(font
 						(size 1 1)
@@ -1799,6 +1871,15 @@
 			(pinfunction "GND")
 			(pintype "power_out")
 			(uuid "1d380a97-c386-4734-aff4-5a555fa1e966")
+		)
+		(group ""
+			(uuid "fc8e4f28-2237-425a-a1a1-319447d4cece")
+			(members "04b22043-cf9f-4777-bf54-db2a98536750" "09eb6ae9-2dc4-46b9-b47c-c6830e340d25"
+				"1d380a97-c386-4734-aff4-5a555fa1e966" "2212bed8-4daa-4029-86e0-04c5b0238732"
+				"44420470-fd1a-48fe-b488-5aa03570ab6c" "88d44051-1b52-4097-bc89-f0306afedfe4"
+				"9f852411-fadf-4bc8-b776-af9461ab94b0" "ab7ec5d6-f614-4036-8908-9842f64b375f"
+				"bbb122a6-9a11-4a21-9a06-0282152d61d7" "c32b5dc9-36f2-4327-8ef4-8dc035506f6f"
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -2200,7 +2281,7 @@
 	(footprint "custom_footprints:arduino_pro_mini_new"
 		(layer "F.Cu")
 		(uuid "f939d4bc-b2da-4325-a207-b2a0646cf8a0")
-		(at 127.2416 105.6803 90)
+		(at 127 106.045 90)
 		(property "Reference" "arduino_pro_mini1"
 			(at -4.8768 1.9558 90)
 			(unlocked yes)
