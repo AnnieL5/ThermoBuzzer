@@ -117,3 +117,11 @@ Completed
    - Revised footprint layout for the thermosensor
 Tomorrow: 
 - Wire PCB!
+
+## 4.23
+Completed:
+- Wire pcb
+Challenge:
+- Couldn't match up everything
+   - change mil grid
+   - Rewire everything tomorrow
