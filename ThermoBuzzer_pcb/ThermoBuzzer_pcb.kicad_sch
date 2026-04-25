@@ -2116,18 +2116,6 @@
 		(uuid "543cfe08-85dc-4bd8-9964-01ed5ffc1fc5")
 	)
 	(junction
-		(at 189.23 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "555470b8-9930-4ec3-9626-6b059dc9c11d")
-	)
-	(junction
-		(at 189.23 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "851430dd-1d0e-4ba9-a515-af658fcc9832")
-	)
-	(junction
 		(at 157.48 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2144,6 +2132,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b573dbd5-a98a-42cf-bec6-339d1b087fc4")
+	)
+	(junction
+		(at 189.23 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7f56e54-54fd-49cd-8985-ab3212a63e98")
+	)
+	(junction
+		(at 189.23 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbda5d3d-17a2-4b60-8ebe-646e45ada986")
 	)
 	(junction
 		(at 115.57 124.46)
@@ -2236,16 +2236,6 @@
 			(type default)
 		)
 		(uuid "2ae3b814-f0c8-4da1-83f3-3de1c88e46e0")
-	)
-	(wire
-		(pts
-			(xy 189.23 80.01) (xy 199.39 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2d6ff6-9c3c-42a5-ba5c-ea432ee8ee44")
 	)
 	(wire
 		(pts
@@ -2406,6 +2396,16 @@
 			(type default)
 		)
 		(uuid "7f0c5029-49c7-4a74-9339-ff2b53f75fd1")
+	)
+	(wire
+		(pts
+			(xy 189.23 80.01) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a2102c-8e66-41d1-a97a-1a41c9596761")
 	)
 	(wire
 		(pts
@@ -3278,7 +3278,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor")
-		(at 189.23 85.09 0)
+		(at 189.23 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3286,7 +3286,7 @@
 		(dnp no)
 		(uuid "6f4bc8bf-13a4-43b7-bc97-79e738a2e7c6")
 		(property "Reference" "TH2"
-			(at 193.04 83.8199 0)
+			(at 185.42 86.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3295,7 @@
 			)
 		)
 		(property "Value" "Thermistor"
-			(at 194.31 86.36 0)
+			(at 184.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

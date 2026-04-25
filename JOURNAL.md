@@ -125,3 +125,11 @@ Challenge:
 - Couldn't match up everything
    - change mil grid
    - Rewire everything tomorrow
+
+## 4.24
+Completed
+- Rewired everything
+   - Had to use thicker wires (20 mil) for VCC and GND, and thinner ones (15mil) for other connections
+Challenge  
+- Couldn't connect two pins
+   Figured out after a lot of trying and rerouting.
