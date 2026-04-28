@@ -133,3 +133,23 @@ Completed
 Challenge  
 - Couldn't connect two pins
    Figured out after a lot of trying and rerouting.
+
+## 4.25
+Completed
+- mark pcb dimensions
+- basic cad sketch
+
+## 4.26
+
+Completed
+- Revised the footprint for the battery
+   - Challenge: find the dimension
+   - Solved: found a cad 3d model online -> export to Fusion360 and get dimensions from that
+- Continue working on 3d print
+   - Decided to add holes on the PCB and use 3m self-tapping screws for securing it on in the box
+
+## 4.27
+Completed
+- revised BOM
+   - added specific columns, including part name, description, unit price, amount, and total price
+- Had to compare and contrast to minimize shipping fee

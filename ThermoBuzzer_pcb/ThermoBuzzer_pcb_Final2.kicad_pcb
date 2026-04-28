@@ -829,7 +829,7 @@
 	(footprint "custom_footprints:6s-aa 14500"
 		(layer "F.Cu")
 		(uuid "7208619e-718e-4333-a531-c254c0788198")
-		(at 94.0248 110.3172)
+		(at 94.355 110.495)
 		(property "Reference" "BT3"
 			(at 0 -14.4 0)
 			(unlocked yes)
@@ -10672,7 +10672,7 @@
 	)
 	(gr_rect
 		(start 93.98 68.58)
-		(end 153.98 128.58)
+		(end 154.94 128.27)
 		(stroke
 			(width 0.05)
 			(type solid)
