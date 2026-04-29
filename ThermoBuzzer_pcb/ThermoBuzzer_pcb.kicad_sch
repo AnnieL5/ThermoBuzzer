@@ -3304,7 +3304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_2460_1xAA"
+		(property "Footprint" "custom_footprints:6s-aa 14500"
 			(at 107.95 100.076 90)
 			(effects
 				(font
@@ -3913,7 +3913,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "4.7k"
 			(at 130.81 105.41 90)
 			(effects
 				(font

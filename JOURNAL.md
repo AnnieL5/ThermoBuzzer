@@ -153,3 +153,13 @@ Completed
 - revised BOM
    - added specific columns, including part name, description, unit price, amount, and total price
 - Had to compare and contrast to minimize shipping fee
+
+## 4.28
+Completed
+- Continued working on the BOM
+   - Make sure everything add up to the Aliexpress cart
+- Revised schematics
+   - Thermobuzzer now will use two resistors: 100k that works with the 100k thermistor, and 4.7k with button
+   - Modified position of parts to ensure the screws can be correctly located and not interfere with cu.back
+Challenge:
+- Manage to arrange parts, wire, and the hole to fit in a small space
