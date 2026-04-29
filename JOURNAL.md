@@ -163,3 +163,13 @@ Completed
    - Modified position of parts to ensure the screws can be correctly located and not interfere with cu.back
 Challenge:
 - Manage to arrange parts, wire, and the hole to fit in a small space
+
+## 4.29
+Completed
+- Manage to create a cad of pcb + components
+   - included preexisting cad from the internet for some components
+   - also made my own
+Challenge:
+- Ran out of edible documents in Fusion 360 :(
+- Tried to work around by deleting electronics I have imported assuming it will stay in the assembly
+- NOO THEY DID NOT TvT Most components got deleted and the positions are not saved when re-imported [cry][cry]

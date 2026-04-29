@@ -1223,8 +1223,8 @@
 		)
 		(pad "" np_thru_hole circle
 			(at 2 1.15 90)
-			(size 1.42 1.42)
-			(drill 1.42)
+			(size 1.8 1.8)
+			(drill 1.8)
 			(layers "*.Cu" "*.Mask")
 			(uuid "47fd8b42-4ca2-460a-b7c9-695b99199d33")
 		)
@@ -10793,6 +10793,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "F.SilkS")
+		(uuid "0d06e90f-f7b3-45fe-a876-209dfd2b3325")
+		(pts
+			(xy 102.9208 72.7456) (xy 93.98 72.1868)
+		)
+		(height -7.5692)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "8.9408"
+			(at 98.4504 64.0764 0)
+			(layer "F.SilkS")
+			(uuid "0d06e90f-f7b3-45fe-a876-209dfd2b3325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.SilkS")
 		(uuid "138576ee-3d97-4c60-bf78-8aac9b483d62")
 		(pts
 			(xy 142.495 91.095) (xy 154.94 91.845)
@@ -10972,6 +11010,44 @@
 			(at 157.015 72.39 90)
 			(layer "F.SilkS")
 			(uuid "7e627003-adfa-49f9-bd65-fc551d54712c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.SilkS")
+		(uuid "8d5db28b-ac17-4007-acfb-4f09d2ef711a")
+		(pts
+			(xy 102.9208 72.7456) (xy 102.87 68.58)
+		)
+		(height -17.9324)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "4.1656"
+			(at 83.8884 70.6628 90)
+			(layer "F.SilkS")
+			(uuid "8d5db28b-ac17-4007-acfb-4f09d2ef711a")
 			(effects
 				(font
 					(size 1 1)
