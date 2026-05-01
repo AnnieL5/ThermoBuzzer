@@ -173,3 +173,11 @@ Challenge:
 - Ran out of edible documents in Fusion 360 :(
 - Tried to work around by deleting electronics I have imported assuming it will stay in the assembly
 - NOO THEY DID NOT TvT Most components got deleted and the positions are not saved when re-imported [cry][cry]
+
+## 4.30
+
+Completed
+- revised the sketch for the box
+- created the box
+- created the slide open lid by following a tutorial
+   - Learned: to be honest, everything in that video are pretty useful

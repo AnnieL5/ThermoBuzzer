@@ -32,6 +32,12 @@ Once the temperature continuously reaches 50 degrees (able to modify using a con
 Once the temperature reaches 70 degrees (able to modify using a constant), ThermoBuzzer will beep continuously right away until the button is clicked.
 
 ## Product Design
+
+### CAD dimensions
+Side + top + base thickness: 2mm
+supporting bar: r=4mm, h=4mm
+Case height: 2mm base + 4mm supporting bar + 1.6mm board + 15.1mm battery height + 2mm flex + 2mm top
+
 ### Circuit Diagram
 ![alt text](images/image1.jpg)
 
