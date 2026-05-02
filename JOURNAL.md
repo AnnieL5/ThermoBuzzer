@@ -1,3 +1,7 @@
+# ANNIE'S Journal
+
+__Note: all parts will be funded my self, and all koi earned from this project will be spent towards travel grant or other items in the shop__
+
 ## Mar. 21
 
 Todo:
@@ -181,3 +185,16 @@ Completed
 - created the box
 - created the slide open lid by following a tutorial
    - Learned: to be honest, everything in that video are pretty useful
+
+## 5.1
+Completed:
+- Make the lid of the box
+- Connect all the STEP file of electronics to the footprints
+Challenge:
+- the updated 3d model of the electronics does not show up
+Fix:
+- update the electronics
+   - also double check the wires!
+
+Tomorrow: 
+- add the pcb cad to the case cad
