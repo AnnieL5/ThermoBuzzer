@@ -196,5 +196,28 @@ Fix:
 - update the electronics
    - also double check the wires!
 
+** Also brought the parts!
+Decided to buy the parts myself and use the koi from this project for travel and hotel grant
+
 Tomorrow: 
 - add the pcb cad to the case cad
+
+## 5.3
+
+Completed:
+- Inserted the cad of the pcb into the case design
+
+Challenge:
+- Realized that the height of the case is 21.3 instead of 26.7 -> could not fit the pcb
+
+Learned:
+- Modify the parameter using the **timeline** tool
+
+## 5.4
+
+Completed:
+- Revised the github readme page
+   - added how to use section
+   - verified that everything is added
+
+- Created and completed the zine page
