@@ -23,13 +23,13 @@ Once the temperature continuously reaches 50 degrees (able to modify using a con
 Once the temperature reaches 70 degrees (able to modify using a constant), ThermoBuzzer will beep continuously right away until the button is clicked.
 
 Image of the entire cad
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Image of the entire cad (with lid)
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 Image of the final PCB
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 ## Product Design
@@ -48,7 +48,7 @@ Diagrams from www.circuitbasics.com.
 
 NTC MF11
 The value of the resistor should be roughly equal to the resistance of the thermistor.
-![alt text](image.png)
+![alt text](images/image.png)
 
 #### OR 
 

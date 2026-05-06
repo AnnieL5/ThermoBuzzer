@@ -221,3 +221,11 @@ Completed:
    - verified that everything is added
 
 - Created and completed the zine page
+
+## 5.5
+
+Completed
+- Revised cad design 
+   - made the button holes smaller
+   - added another hole on the side wall in case the thermistor can not reach the the whole on top
+- Organized the files
