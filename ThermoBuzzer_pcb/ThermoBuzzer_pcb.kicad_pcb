@@ -842,7 +842,7 @@
 		(uuid "7208619e-718e-4333-a531-c254c0788198")
 		(at 94.0248 110.3172)
 		(property "Reference" "BT3"
-			(at 0 -14.4 0)
+			(at 15.246 2.3064 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e31f3ba3-ad6a-460f-ba1e-73412303f2e7")
@@ -854,7 +854,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 0 -12.9 0)
+			(at 8.1848 2.3064 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "01b475ad-77f5-4d4d-a51d-dbb167f4b063")
@@ -1221,7 +1221,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -11.4 0)
+			(at 3.2572 4.3892 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8c50ffe2-89e8-4403-9a1e-c73ea608dff9")
@@ -2586,7 +2586,7 @@
 		(uuid "f939d4bc-b2da-4325-a207-b2a0646cf8a0")
 		(at 127.7112 107.3531 90)
 		(property "Reference" "U1"
-			(at 17.7833 -27.432 90)
+			(at 17.6911 -31.2928 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7824df52-3a21-4d0d-8d2e-131ca5ba4f84")

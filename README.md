@@ -1,5 +1,6 @@
 ## ThermoBuzzer, a Thermosenser to Prevent Over Boiled Pots. 
 
+### What it is
 This device integrates a thermosensor, buzzer, and a button, and can make alarms when the temperature (the steam it detects) reaches a certain threshold. 
 
 ### Motivation / Inspiration / Problem
@@ -12,24 +13,31 @@ One Saturday afternoon my father left the stove, with the water heating up, for 
 
 2. Insert the battery to start the machine. Slide in the lid and secure using a m3 self-tapping screw
 
-3. Insert the device somewhere on top the stove to record the temperature
+3. Place it near the stoves. 
+
+    Once the temperature continuously reaches 50 degrees (able to modify using a constant), ThermoBuzzer will beep continuously every five minutes until the button is clicked to ensure someone is there.
+
+    Once the temperature reaches 70 degrees (able to modify using a constant), ThermoBuzzer will beep continuously right away until the button is clicked.
 
 4. (Optional) To adjust the temperature threshold, take out the pcb from the case, modify amd reupload the program to the arduino pro mini.
 
-Place it near the stoves. 
+### Code Example
+Go checkout the example code in firmware/thermobuzzer.imo and upload it onto the arduino pro mini
 
-Once the temperature continuously reaches 50 degrees (able to modify using a constant), ThermoBuzzer will beep continuously every five minutes until the button is clicked to ensure someone is there.
+For how to upload code onto arduino pro mini using arduino uno, check out 
+https://www.instructables.com/How-to-Program-Arduino-Pro-Mini-Using-Arduino-UNO/
 
-Once the temperature reaches 70 degrees (able to modify using a constant), ThermoBuzzer will beep continuously right away until the button is clicked.
-
-Image of the entire cad
+### Image of the entire cad
 ![alt text](images/image-3.png)
 
-Image of the entire cad (with lid)
+### Image of the entire cad (with lid)
 ![alt text](images/image-4.png)
 
-Image of the final PCB
+### Image of the final PCB
 ![alt text](images/image-2.png)
+
+### Image of the wiring schematic
+![alt text](images/image-5.png)
 
 
 ## Product Design
@@ -39,7 +47,7 @@ Side + top + base thickness: 2mm
 supporting bar: r=4mm, h=4mm
 Case height: 2mm base + 4mm supporting bar + 1.6mm board + 15.1mm battery height + 2mm flex + 2mm top
 
-### Circuit Diagram
+### Circuit Diagram 
 ![alt text](images/image1.jpg)
 
 ### Sub-circuit Description
@@ -50,7 +58,8 @@ NTC MF11
 The value of the resistor should be roughly equal to the resistance of the thermistor.
 ![alt text](images/image.png)
 
-#### OR 
+#### BME280
+Reference links:
 
 BME280
 https://randomnerdtutorials.com/bme280-sensor-arduino-pressure-temperature-humidity/
@@ -62,16 +71,7 @@ Code: https://randomnerdtutorials.com/bme280-sensor-arduino-pressure-temperature
 
 Arduino Library: adafruit bme280
 
-1. Version 1 - I2C communication
-
-| BME280 |	Arduino |
-|--|--|
-|Vin | 	5V |
-|GND |	GND |
-|SCL |	A5 |
-|SDA |	A4 |
-
-2. Version 2 - SPI or I2C communication
+It supports SPI or I2C communication
 
 | BME280 |	Arduino |
 |--|--|
@@ -90,15 +90,15 @@ Arduino Library: adafruit bme280
 
 #### Buzzer, Button and Arduino
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Requirements (Need future work)
-| Req # | Requirements | Comments |
-|---|---|---|
-| | The thermosensor shall be able to measure the temperature accurately for further actions|
-| | The thermosensor shall be able to beep when the temperature reaches a certain threshold |
-| | The button should be able to stop the buzzer from beeping |
-| | The temperature threshold should be adjustable by the user |
+| Req # | Requirements |
+|---|---|
+| 1.1 | The thermosensor shall be able to measure the temperature accurately for further actions|
+| 1.2 | The thermosensor shall be able to beep when the temperature reaches a certain threshold |
+| 1.3 | The button should be able to stop the buzzer from beeping |
+| 1.4 | The temperature threshold should be adjustable by the user |
 
 
 ### Thanks for checking it out!
