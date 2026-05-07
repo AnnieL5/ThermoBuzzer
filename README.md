@@ -100,6 +100,9 @@ It supports SPI or I2C communication
 | 1.3 | The button should be able to stop the buzzer from beeping |
 | 1.4 | The temperature threshold should be adjustable by the user |
 
+## Bill of Materials (BOM)
+Check out the csv file in docs/ for more information
+
 
 ### Thanks for checking it out!
 Any questions or thoughts, feel free to reach out to atianyi.liang@gmail.com.
