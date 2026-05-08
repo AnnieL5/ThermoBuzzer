@@ -28,16 +28,16 @@ For how to upload code onto arduino pro mini using arduino uno, check out
 https://www.instructables.com/How-to-Program-Arduino-Pro-Mini-Using-Arduino-UNO/
 
 ### Image of the entire cad
-![alt text](images/image-3.png)
+![alt text](docs/images/image-3.png)
 
 ### Image of the entire cad (with lid)
-![alt text](images/image-4.png)
+![alt text](docs/images/image-4.png)
 
 ### Image of the final PCB
-![alt text](images/image-2.png)
+![alt text](docs/images/image-2.png)
 
 ### Image of the wiring schematic
-![alt text](images/image-5.png)
+![alt text](docs/images/image-5.png)
 
 
 ## Product Design
@@ -48,7 +48,7 @@ supporting bar: r=4mm, h=4mm
 Case height: 2mm base + 4mm supporting bar + 1.6mm board + 15.1mm battery height + 2mm flex + 2mm top
 
 ### Circuit Diagram 
-![alt text](images/image1.jpg)
+![alt text](docs/images/image1.jpg)
 
 ### Sub-circuit Description
 Diagrams from www.circuitbasics.com. 
@@ -56,7 +56,7 @@ Diagrams from www.circuitbasics.com.
 
 NTC MF11
 The value of the resistor should be roughly equal to the resistance of the thermistor.
-![alt text](images/image.png)
+![alt text](docs/images/image.png)
 
 #### BME280
 Reference links:
@@ -90,7 +90,7 @@ It supports SPI or I2C communication
 
 #### Buzzer, Button and Arduino
 
-![alt text](images/image-1.png)
+![alt text](docs/images/image-1.png)
 
 ## Requirements (Need future work)
 | Req # | Requirements |
