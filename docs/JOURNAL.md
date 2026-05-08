@@ -238,3 +238,6 @@ Completed:
 - Revised Readme
    - added more guide
    - more polished
+
+## 5.7
+- Revised path for pcb 3d model
