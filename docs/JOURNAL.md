@@ -241,3 +241,6 @@ Completed:
 
 ## 5.7
 - Revised path for pcb 3d model
+
+## 5.11
+- Export CAD files for separate parts
