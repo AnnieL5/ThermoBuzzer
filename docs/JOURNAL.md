@@ -244,3 +244,4 @@ Completed:
 
 ## 5.11
 - Export CAD files for separate parts
+- revised pcb based on the new file structure and pcb design
