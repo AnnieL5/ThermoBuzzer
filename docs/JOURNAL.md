@@ -245,3 +245,13 @@ Completed:
 ## 5.11
 - Export CAD files for separate parts
 - revised pcb based on the new file structure and pcb design
+
+## 5.13
+
+- Polish CAD
+   - update pile location
+   - update connection location
+   - update lid extrudsion 
+
+Learned:
+- I couldn't move the sketch for the connection previously -> just remove the constrain

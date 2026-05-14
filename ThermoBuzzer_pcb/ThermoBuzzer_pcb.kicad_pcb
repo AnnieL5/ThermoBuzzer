@@ -392,8 +392,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "C:/Annie/code/hardware/ThermoBuzzer/CAD/AHT20+BMP280.step"
-			(hide yes)
+		(model "C:/Annie/code/hardware/ThermoBuzzer/mechanical/Electric components/AHT20+BMP280.step"
 			(offset
 				(xyz -6.3 7.8 4.3)
 			)
@@ -827,7 +826,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
-			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1278,7 +1276,7 @@
 			(uuid "616d79fa-20aa-4ba0-9e42-81ac7fd2734c")
 		)
 		(embedded_fonts no)
-		(model "C:/Annie/code/hardware/GarageGuard/machenical/CAD/6S-AA Battery.STEP"
+		(model "C:/Annie/code/hardware/ThermoBuzzer/mechanical/Electric components/6S-AA Battery.STEP"
 			(offset
 				(xyz 30.1 -8.2 0)
 			)
@@ -1626,7 +1624,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.step"
-			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1839,7 +1836,7 @@
 			(uuid "c9359acd-ef07-4eed-909e-9a2b444e2d14")
 		)
 		(embedded_fonts no)
-		(model "C:/Annie/code/hardware/GarageGuard/machenical/CAD/ND2050MA-3.step"
+		(model "C:/Annie/code/hardware/ThermoBuzzer/mechanical/Electric components/ND2050MA-3.step"
 			(offset
 				(xyz -8.7 -9.1 1.8)
 			)
@@ -2071,6 +2068,7 @@
 		)
 		(embedded_fonts no)
 		(model "C:/Annie/code/hardware/GarageGuard/machenical/CAD/HC-SR04 Sensor.stp"
+			(hide yes)
 			(offset
 				(xyz 22.9 -2.2 10)
 			)
@@ -2333,7 +2331,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
-			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2526,7 +2523,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
-			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10761,7 +10757,7 @@
 			(uuid "68f62530-3176-4c40-98c9-d15c3379decd")
 		)
 		(embedded_fonts no)
-		(model "C:/Annie/code/hardware/GarageGuard/machenical/CAD/Arduino_Pro_mini_AP203.STEP"
+		(model "C:/Annie/code/hardware/ThermoBuzzer/mechanical/Electric components/Arduino_Pro_mini_AP203.STEP"
 			(offset
 				(xyz -6.9 40.55 -12)
 			)
