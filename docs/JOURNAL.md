@@ -255,3 +255,10 @@ Completed:
 
 Learned:
 - I couldn't move the sketch for the connection previously -> just remove the constrain
+
+## 5.26
+
+Polished & Everything learned:
+- Rounded corners using Fillet
+- Added text onto the design using sketch -> text function
+- changed colors using A (appearance)
