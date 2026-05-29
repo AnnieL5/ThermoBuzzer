@@ -28,16 +28,20 @@ For how to upload code onto arduino pro mini using arduino uno, check out
 https://www.instructables.com/How-to-Program-Arduino-Pro-Mini-Using-Arduino-UNO/
 
 ### Image of the entire cad
-![alt text](docs/images/image-3.png)
+![alt text](docs/images/image-3.jpg)
 
 ### Image of the entire cad (with lid)
-![alt text](docs/images/image-4.png)
+![alt text](docs/images/image-4.jpg)
 
 ### Image of the final PCB
 ![alt text](docs/images/image-2.png)
 
 ### Image of the wiring schematic
 ![alt text](docs/images/image-5.png)
+
+## Zine page
+
+![alt text](docs/images/Thermobuzzer%20Zine%20Page%20PNG.png)
 
 
 ## Product Design

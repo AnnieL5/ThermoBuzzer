@@ -262,3 +262,15 @@ Polished & Everything learned:
 - Rounded corners using Fillet
 - Added text onto the design using sketch -> text function
 - changed colors using A (appearance)
+
+## 5.28
+
+Completed:
+- Further polished CAD
+- Rounded the corners even more
+- Added Counterbore to the lid's hole
+
+Challenge:
+- Counterbore hole would not show
+Fix:
+- Change Apply to Object (at the really end of the panel) -> select the one for all objects
