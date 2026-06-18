@@ -274,3 +274,53 @@ Challenge:
 - Counterbore hole would not show
 Fix:
 - Change Apply to Object (at the really end of the panel) -> select the one for all objects
+
+# Design Approved!
+
+## 6.17
+Parts + PCB arrived:
+- Tested each component individually
+   - program arduino pro mini using arduino uno\
+   Mini's Vcc = UNO's +5v/3.3v (depends on the board you have)
+   Mini's GND = UNO's GND.
+   Mini's Tx = UNO's TX (pin no. 1)
+   Mini's Rx = UNO's RX (pin no. 0)
+   Mini's DTR = UNO's RESET.
+   Mini onboard LED = Pin 13
+   - Tested thermistor - working
+   - Tested button - all good
+   - Tested voltage booster - working
+
+Challenge:
+- Buzzer: since the aliexpress page does not contain the dimension and user manual, I created the footprint using the ones online -> apparently they are not the same
+
+   Fix: Do not buy parts ever again that does not have a user manual. Look for more options I'm sure there's one
+
+
+- I also couldn't differentiate passive vs active buzzer.
+
+   Fix: Passive: both pins are the same length, no sticker on top.\
+   Active: one pin longer than the other one, a sticker on top. 
+
+   Passive: tone(). \
+   Active: pin(high)\pin(low)
+
+- Couldn't find 4.7k resistor
+
+   Fix: since it is just pull down, I used 5k1 instead
+
+- Battery holder does not fit into the pcb
+
+   Fix: I should probably make the holes bigger just in case
+
+- The screws's diameter decreases downwards and the hole in the CAD case is probably too big to hold it
+
+   Fix: I made the ones on bottom 2.7mm -> 2.2mm diameter.
+
+Would be great to double check everything just in case!
+
+- Also started soldering everything in
+
+   Challenge: did something wrong and had to get it out
+
+   Next time: double check everything before soldering! 
