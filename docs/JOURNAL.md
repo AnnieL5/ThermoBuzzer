@@ -324,3 +324,12 @@ Would be great to double check everything just in case!
    Challenge: did something wrong and had to get it out
 
    Next time: double check everything before soldering! 
+
+## 6.20
+
+Completed:
+- Built the project
+- Tested everything & it works!
+- Refined the 3d print
+- Filed videos + took pictures
+- Created a demo video + posted on Youtube!

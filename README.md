@@ -27,11 +27,13 @@ Go checkout the example code in firmware/thermobuzzer.imo and upload it onto the
 For how to upload code onto arduino pro mini using arduino uno, check out 
 https://www.instructables.com/How-to-Program-Arduino-Pro-Mini-Using-Arduino-UNO/
 
-### Image of the entire cad
+### Image of the entire cad / Finished product
 ![alt text](docs/images/image-3.jpg)
+![alt text](docs/images/irl2.jpg)
 
-### Image of the entire cad (with lid)
+### Image of the entire cad (with lid) / Finished product
 ![alt text](docs/images/image-4.jpg)
+![alt text](docs/images/irl1.jpg)
 
 ### Image of the final PCB
 ![alt text](docs/images/image-2.png)
@@ -41,8 +43,11 @@ https://www.instructables.com/How-to-Program-Arduino-Pro-Mini-Using-Arduino-UNO/
 
 ## Zine page
 
-![alt text](docs/images/Thermobuzzer%20Zine%20Page%20PNG.png)
+![alt text](docs/images/zine.png)
 
+## Demo Video
+
+https://youtu.be/lv5Z6S4dAAs
 
 ## Product Design
 

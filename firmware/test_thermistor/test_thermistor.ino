@@ -38,7 +38,7 @@ return celsius;
 void loop() {
   // put your main code here, to run repeatedly:
   float tempC=readTemperature(); //read temp
-  float time = 10000/tempC;
+  float time = tempC*tempC;
   digitalWrite(13, HIGH);   // Turn the LED on
   delay(time);              // Wait for a second
   digitalWrite(13, LOW);    // Turn the LED off
